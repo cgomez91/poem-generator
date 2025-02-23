@@ -7,36 +7,42 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Poem Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>The poem will go here</div>
-    </main>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">The poem will go here</div>
+      </main>
 
-    <footer>
-      This AI Project was coded by
-      <a href="https://github.com/cgomez91" target="_blank">Corina Gomez</a> and
-      is
-      <a href="https://github.com/cgomez91/poem-generator.git" target="_blank">
-        open-sourced on Github
-      </a>
-      and is hosted on
-      <a href="https://new-poem-generator-ai.netlify.app/" target="_blank"
-        >Netlify.</a
-      >
-    </footer>
-    <script src="src/index.js"></script>
+      <footer>
+        This AI Project was coded by
+        <a href="https://github.com/cgomez91" target="_blank">Corina Gomez</a>
+        and is
+        <a
+          href="https://github.com/cgomez91/poem-generator.git"
+          target="_blank"
+        >
+          open-sourced on Github
+        </a>
+        and is hosted on
+        <a href="https://new-poem-generator-ai.netlify.app/" target="_blank"
+          >Netlify.</a
+        >
+      </footer>
+      <script src="src/index.js"></script>
+    </div>
   </body>
 </html>
